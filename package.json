@@ -1,6 +1,6 @@
 {
   "name": "parcel-transformer-java-properties",
-  "version": "2.7.0-2",
+  "version": "2.7.0-3",
   "description": "",
   "scripts": {
     "build": "rimraf ./lib && babel src/ -d lib/",

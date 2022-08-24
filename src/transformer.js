@@ -7,7 +7,7 @@ export default new Transformer({
         let values = parse(code);
 
         asset.type = 'json';
-        asset.setCode(values);
+        asset.setCode(JSON.stringify(values));
 
         return [asset];
     }
