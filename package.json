@@ -1,0 +1,35 @@
+{
+  "name": "parcel-transformer-java-properties",
+  "version": "2.7.0-1",
+  "description": "",
+  "scripts": {
+    "build": "rimraf ./lib && babel src/ -d lib/",
+    "prepare": "npm run build"
+  },
+  "author": "Oleg Loginov",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ol-loginov/parcel-transformer-java-properties"
+  },
+  "main": "lib/transformer.js",
+  "source": "src/transformer.js",
+  "engines": {
+    "node": ">= 10.0.0",
+    "parcel": "^2.7.0"
+  },
+  "files": [
+    "lib/*.js"
+  ],
+  "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "@parcel/plugin": "2.7.0"
+  },
+  "devDependencies": {
+    "@parcel/babel-preset": "^2.0.0-alpha.2",
+    "rimraf": "^3.0.2"
+  }
+}
