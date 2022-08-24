@@ -1,6 +1,6 @@
 {
   "name": "parcel-transformer-java-properties",
-  "version": "2.7.0-1",
+  "version": "2.7.0-2",
   "description": "",
   "scripts": {
     "build": "rimraf ./lib && babel src/ -d lib/",
@@ -26,7 +26,8 @@
   ],
   "dependencies": {
     "@babel/cli": "^7.18.10",
-    "@parcel/plugin": "2.7.0"
+    "@parcel/plugin": "2.7.0",
+    "properties-parser": "^0.3.1"
   },
   "devDependencies": {
     "@parcel/babel-preset": "^2.0.0-alpha.2",
